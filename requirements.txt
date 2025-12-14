@@ -1,0 +1,26 @@
+# Core Dependencies for Phase 1: From Scratch
+
+# AI Model API
+google-generativeai==0.3.2
+
+# Environment variable management
+python-dotenv==1.0.0
+
+# Web UI framework
+streamlit==1.29.0
+
+# Note: These are the ONLY dependencies needed!
+# 
+# Why so few?
+# - We're building from scratch (not using agent frameworks)
+# - google-generativeai: To call Gemini API
+# - python-dotenv: To manage API keys securely
+# - streamlit: To build beautiful UI
+#
+# Total install size: ~50MB
+# 
+# Compare to framework-based approach:
+# - LangChain + dependencies: 200+ MB
+# - CrewAI + dependencies: 150+ MB
+#
+# Building from scratch = lighter, faster, clearer!

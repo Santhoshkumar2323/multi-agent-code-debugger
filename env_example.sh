@@ -2,7 +2,7 @@
 
 # Gemini API Key (Required)
 # Get your free API key from: https://ai.google.dev/
-GEMINI_API_KEY=AIzaSyC-DFCeVAXw1DWvBuT6e3ozcOP0xF1Befg
+
 
 # Optional: Model configuration
 # Default: gemini-1.5-flash (free tier)
